@@ -5,7 +5,9 @@ Initial research to discover the instrument sounds of a song with a transformer.
 ### 1. Copysongfiles
 Runs to debug the architecture after small changes or big changes, may take time with the full dataset. Therefore, for debugging purposes, you can create a smaller dataset with the click of a button. It is important to update the path where the MUSDB18HQ dataset exists and the path where we want the reduced dataset.
 ### 2. Train_a_smaller_architecture
-helps use to take the architecture of Meta, make is smaller, and train it. Moreover, we added the log of training and testing for the original (but smaller) architecture. 
+Helps use to take the architecture of Meta, make is smaller, and train it. Moreover, we added the log of training and testing for the original (but smaller) architecture. 
+### 3. Train_T
+This is a notebook that shows small the results of the Meta's architecture + Spacetimeformer, the point of this notebook is to show the initial runs we did in order to choose hyperparameters of the Spacetimeformer in this project. This note book is not to running code.
 
 ### Important details: 
 a. Remember to update the main_path <br/>
