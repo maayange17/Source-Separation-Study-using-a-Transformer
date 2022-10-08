@@ -1,7 +1,9 @@
 # Source-Separation-Study-using-a-Transformer
 Initial research to discover the instrument sounds of a song with a transformer. Based on Meta architecture and research.
-
-## About the code
+## Original code:
+### 1. Spacetimeformer - https://github.com/QData/spacetimeformer
+### 2. Hdemucs - https://github.com/facebookresearch/demucs
+## Changes in code + debug
 ### 1. Copysongfiles
 Runs to debug the architecture after small changes or big changes, may take time with the full dataset. Therefore, for debugging purposes, you can create a smaller dataset with the click of a button. It is important to update the path where the MUSDB18HQ dataset exists and the path where we want the reduced dataset.
 ### 2. Train_a_smaller_architecture
@@ -11,7 +13,7 @@ This is a notebook that shows small the results of the Meta's architecture + Spa
 ### 4. Facebook_Transformers
 This is a folder with Meta's code and the changes that we did to link between Meta's original architecture to the Spacetimeformer. We did many changes in the code, most of them are visible at: 'Facebook_Transformers/demucs-main/demucs-main/demucs'. There, you can see our new layer, and how it connects to orignal architecture and how we replace the LSTM + local attention with Spacetimeformer.
 ### 5. spacetimeformer-main
-Here, we have both the original zip file and the file after some changes we did. **The original code will not work, use the folder!**
+Here, we have both the original zip file and the file after changes we did. **The original code will not work, use the folder!**
 We did changes to the inputs of the model and to the embed files (both in 'nn' files of the Spacetimeformer) to match our inputs and outputs of the model.
 ### 6. Model_with_transformer_full_run_logs
 Here, you will see the full logs of the running of our model. The last log is the log with the results that we show in our paper.
