@@ -13,7 +13,7 @@ This is a folder with Meta's code and the changes that we did to link between Me
 ### 5. spacetimeformer-main
 Here, we have both the original zip file and the file after some changes we did. **The original code will not work, use the folder!**
 We did changes to the inputs of the model and to the embed files (both in 'nn' files of the Spacetimeformer) to match our inputs and outputs of the model.
-### 6. Model_with_transformer_full_run_logs.ipynb
+### 6. Model_with_transformer_full_run_logs
 Here, you will see the full logs of the running of our model. The last log is the log with the results that we show in our paper.
 Also show commands of how to run the model.
 
