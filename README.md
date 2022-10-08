@@ -5,7 +5,7 @@ Initial research to discover the instrument sounds of a song with a transformer.
 ### 1. Copysongfiles
 Runs to debug the architecture after small changes or big changes, may take time with the full dataset. Therefore, for debugging purposes, you can create a smaller dataset with the click of a button. It is important to update the path where the MUSDB18HQ dataset exists and the path where we want the reduced dataset.
 ### 2. Train_a_smaller_architecture
-Helps use to take the architecture of Meta, make is smaller, and train it. Moreover, we added the log of training and testing for the original (but smaller) architecture. 
+Helps use to take the architecture of Meta, make is smaller, and train it. Moreover, we added the log of training and testing for the original (but smaller) architecture. The last log is the log with the results that we show in our paper.
 ### 3. Train_T
 This is a notebook that shows small the results of the Meta's architecture + Spacetimeformer, the point of this notebook is to show the initial runs we did in order to choose hyperparameters of the Spacetimeformer in this project. This note book is not to running code.
 ### 4. Facebook_Transformers
@@ -13,6 +13,9 @@ This is a folder with Meta's code and the changes that we did to link between Me
 ### 5. spacetimeformer-main
 Here, we have both the original zip file and the file after some changes we did. **The original code will not work, use the folder!**
 We did changes to the inputs of the model and to the embed files (both in 'nn' files of the Spacetimeformer) to match our inputs and outputs of the model.
+### 6. Model_with_transformer_full_run_logs.ipynb
+Here, you will see the full logs of the running of our model. The last log is the log with the results that we show in our paper.
+Also show commands of how to run the model.
 
 ### Important details: 
 a. Remember to update the main_path <br/>
