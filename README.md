@@ -4,3 +4,5 @@ Initial research to discover the instrument sounds of a song with a transformer.
 ## About the code
 ## See results
 ## Run your own code
+### Using server
+### Using colab
