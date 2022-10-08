@@ -21,7 +21,7 @@ Also show commands of how to run the model.
 
 ### Important details: 
 a. Remember to update the main_path <br/>
-b. Remember to update the paths of the dataset and everything else in: Facebooks_code_for_tensors folder using Meta's training doc: https://github.com/facebookresearch/demucs/blob/main/docs/training.md <br/>
+b. Remember to update the paths of the dataset and everything else in: Facebooks_code_for_tensors folder and Facebook_Transformers folder if you wish to train the model, using Meta's training doc: https://github.com/facebookresearch/demucs/blob/main/docs/training.md <br/>
 c. We used dora, a great tool to change and follow the changes of the hyperparameters. Read about it more in Meta's training doc. <br/>
 d. We started from 81de367c in the training, as this the original Hdemucs. 
 
