@@ -8,6 +8,8 @@ Runs to debug the architecture after small changes or big changes, may take time
 Helps use to take the architecture of Meta, make is smaller, and train it. Moreover, we added the log of training and testing for the original (but smaller) architecture. 
 ### 3. Train_T
 This is a notebook that shows small the results of the Meta's architecture + Spacetimeformer, the point of this notebook is to show the initial runs we did in order to choose hyperparameters of the Spacetimeformer in this project. This note book is not to running code.
+### 4. Facebook_Transformers
+This is a folder with Meta's code and the changes that we did to link between Meta's original architecture to the Spacetimeformer. We did many changes in the code, most of them are visible at: 'Facebook_Transformers/demucs-main/demucs-main/demucs'. There, you can see our new layer, and how it connects to orignal architecture and how we replace the LSTM + local attention with Spacetimeformer.
 
 ### Important details: 
 a. Remember to update the main_path <br/>
