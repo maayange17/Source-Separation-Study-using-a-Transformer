@@ -11,7 +11,7 @@ helps use to take the architecture of Meta, make is smaller, and train it. Moreo
 a. Remember to update the main_path <br/>
 b. Remember to update the paths of the dataset and everything else in: Facebooks_code_for_tensors folder using Meta's training doc: https://github.com/facebookresearch/demucs/blob/main/docs/training.md <br/>
 c. We used dora, a great tool to change and follow the changes of the hyperparameters. Read about it more in Meta's training doc. <br/>
-d. we started from 81de367c in the training, as this the original Hdemucs. 
+d. We started from 81de367c in the training, as this the original Hdemucs. 
 
 ### Not so important details:
 The folder Facebooks_code_for_tensors is a copy of Meta's code we used for debugging purposes. The name is from the fact that we saw in 'Facebooks_code_for_tensors/demucs-main/demucs-main/demucs/wav.py' in 'get_item' a lot of changes in the data, and we tried to save the final product and load it ad tensor in the next training, to save up some time. But it looks like the changes in data and the I/O time of h5 are the same, so we didn't use it in the end.
