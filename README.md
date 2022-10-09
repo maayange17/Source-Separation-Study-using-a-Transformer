@@ -15,8 +15,8 @@ In this notebook, we show the results of Meta's architecture + Spacetimeformer, 
 ### 4. Facebook_Transformers
 This is a folder with Meta's code and the changes that we did to link Meta's original architecture to the Spacetimeformer. We made many changes in the code, most of them are visible at: 'Facebook_Transformers/demucs-main/demucs-main/demucs'. There, you can see our new layer, and how it connects to orignal architecture and how we replace the LSTM + local attention with Spacetimeformer.
 ### 5. spacetimeformer-main
-Here, we have both the original zip file and the file after the changes we did. **The original code will not work, use the folder!**
-We made changes to the inputs of the model and to the embed files (both in 'nn' files of the Spacetimeformer) to match our inputs and outputs of the model.
+Here, we have both the original zip file of Spacetimeformer project and the file after the changes we did. **The original code will not work, use the folder!**
+We made changes to the inputs of the model,as well as changing embed file (both in 'nn' files of the Spacetimeformer).
 ### 6. Model_with_transformer_full_run_logs
 Here, you will see the full logs of the running of our model. The last log is the log with the results that we show in our paper.
 Also show commands of how to run the model.
