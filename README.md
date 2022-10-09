@@ -4,6 +4,8 @@ An initial attempt to discover instrument sounds with a transformer. Developed b
 ### 1. Spacetimeformer - https://github.com/QData/spacetimeformer
 ### 2. Hdemucs - https://github.com/facebookresearch/demucs <br/>
 Try to follow to installation of libraries in each project before you start with our code!
+To understand how to run basic Hdemucs, you need to read first: https://github.com/facebookresearch/demucs/blob/main/docs/training.md
+After the basic installations and understand of running the demucs, you may strat!
 
 ## Changes in code + debug
 ### 1. Copysongfiles
