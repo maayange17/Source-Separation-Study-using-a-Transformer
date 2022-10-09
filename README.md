@@ -2,7 +2,9 @@
 An initial attempt to discover instrument sounds with a transformer. Developed based on Meta's architecture and research.
 ## Original code:
 ### 1. Spacetimeformer - https://github.com/QData/spacetimeformer
-### 2. Hdemucs - https://github.com/facebookresearch/demucs
+### 2. Hdemucs - https://github.com/facebookresearch/demucs <br/>
+Try to follow to installation of libraries in each project before you start with our code!
+
 ## Changes in code + debug
 ### 1. Copysongfiles
 With the full dataset, debugging the architecture can take time after minor or major changes. For debugging purposes, you can simply create a smaller dataset. Update the path where the MUSDB18HQ dataset exists and the path where the reduced dataset should be located.
